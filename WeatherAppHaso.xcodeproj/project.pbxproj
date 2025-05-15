@@ -30,20 +30,46 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		47F805062DA6EEFC0032BF9D /* Exceptions for "WeatherAppHaso" folder in "WeatherAppHaso" target */ = {
+		477B60912DD67E1600B13509 /* Exceptions for "Other" folder in "WeatherAppHaso" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
 			target = 47F804DD2DA6EEFA0032BF9D /* WeatherAppHaso */;
 		};
+		47F805062DA6EEFC0032BF9D /* Exceptions for "WeatherAppHaso" folder in "WeatherAppHaso" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Views/CityCollectionViewCell.swift,
+			);
+			target = 47F804DD2DA6EEFA0032BF9D /* WeatherAppHaso */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		47F8051C2DA6F41C0032BF9D /* Exceptions for "WeatherAppHaso" folder in "Copy Bundle Resources" phase from "WeatherAppHaso" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 47F804DC2DA6EEFA0032BF9D /* Resources */;
+			membershipExceptions = (
+				Views/CityCollectionViewCell.swift,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		477B60822DD67C7500B13509 /* Other */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				477B60912DD67E1600B13509 /* Exceptions for "Other" folder in "WeatherAppHaso" target */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 		47F804E02DA6EEFA0032BF9D /* WeatherAppHaso */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				47F805062DA6EEFC0032BF9D /* Exceptions for "WeatherAppHaso" folder in "WeatherAppHaso" target */,
+				47F8051C2DA6F41C0032BF9D /* Exceptions for "WeatherAppHaso" folder in "Copy Bundle Resources" phase from "WeatherAppHaso" target */,
 			);
 			path = WeatherAppHaso;
 			sourceTree = "<group>";
@@ -88,6 +114,7 @@
 		47F804D52DA6EEFA0032BF9D = {
 			isa = PBXGroup;
 			children = (
+				477B60822DD67C7500B13509 /* Other */,
 				47F804E02DA6EEFA0032BF9D /* WeatherAppHaso */,
 				47F804F72DA6EEFC0032BF9D /* WeatherAppHasoTests */,
 				47F805012DA6EEFC0032BF9D /* WeatherAppHasoUITests */,
@@ -121,6 +148,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				477B60822DD67C7500B13509 /* Other */,
 				47F804E02DA6EEFA0032BF9D /* WeatherAppHaso */,
 			);
 			name = WeatherAppHaso;
@@ -293,7 +321,6 @@
 				INFOPLIST_FILE = WeatherAppHaso/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +347,6 @@
 				INFOPLIST_FILE = WeatherAppHaso/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
